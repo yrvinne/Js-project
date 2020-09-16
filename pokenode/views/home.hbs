@@ -1,0 +1,7 @@
+<h1>Pokedex</h1>
+
+<ul class="pokedex">
+    {{#each pokemons.results}}
+    <li>><a href='/{{this.name}}'>{{capitalize this.name}}</a></li>
+    {{/each}}
+</ul>
